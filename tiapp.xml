@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app 
+  xmlns:ti="http://ti.appcelerator.org">
+  <id>axway.titaniumstreamsdemo</id>
+  <name>titanium-streams-demo</name>
+  <version>1.0.0.0</version>
+  <publisher>Axway</publisher>
+  <url>https://www.axway.com</url>
+  <description>Titanium Demo app for AMPLIFY Streams</description>
+  <copyright>Copyright (c) 2019 Axway</copyright>
+  <icon>appicon.png</icon>
+  <fullscreen>false</fullscreen>
+  <navbar-hidden>false</navbar-hidden>
+  <analytics>false</analytics>
+  <guid>bc23ee89-988a-4717-8f93-1dddba403715</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <property name="run-on-main-thread" type="bool">true</property>
+  <ios>
+    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+    <use-app-thinning>true</use-app-thinning>
+    <plist>
+      <dict>
+        <key>UISupportedInterfaceOrientations~iphone</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <string>UIInterfaceOrientationPortraitUpsideDown</string>
+          <string>UIInterfaceOrientationLandscapeLeft</string>
+          <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+        <key>UISupportedInterfaceOrientations~ipad</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <string>UIInterfaceOrientationPortraitUpsideDown</string>
+          <string>UIInterfaceOrientationLandscapeLeft</string>
+          <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+        <key>NSCameraUsageDescription</key>
+        <string>Can we use your camera?</string>
+        <key>NSPhotoLibraryUsageDescription</key>
+        <string>Can we save to your library?</string>
+        <key>NSMicrophoneUsageDescription</key>
+        <string>Can we use your microphone?</string>
+        <key>NSAppleMusicUsageDescription</key>
+        <string>Can we use your music library?</string>
+        <key>ITSAppUsesNonExemptEncryption</key>
+        <false/>
+        <key>UIRequiresPersistentWiFi</key>
+        <false/>
+        <key>UIPrerenderedIcon</key>
+        <false/>
+        <key>UIStatusBarHidden</key>
+        <false/>
+        <key>UIStatusBarStyle</key>
+        <string>UIStatusBarStyleDefault</string>
+        <key>LSApplicationQueriesSchemes</key>
+        <array>
+          <string>fb</string>
+          <string>fbapi</string>
+          <string>fbauth2</string>
+          <string>fbshareextension</string>
+          <string>fb-messenger-api</string>
+          <string>twitter</string>
+          <string>instagram</string>
+          <string>comgooglemaps</string>
+          <string>axway.titaniumstreamsdemo</string>
+        </array>
+        <key>CFBundleURLTypes</key>
+        <array>
+          <dict>
+            <key>CFBundleURLName</key>
+            <!-- same as ti:app/id -->
+            <string>axway.titaniumstreamsdemo</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+              <!-- your custom scheme -->
+              <string>axway.titaniumstreamsdemo</string>
+              <!-- same as 'fb' plus ti:app/property[name=ti.facebook.appid] -->
+              <!--<string>fb123456789</string>-->
+            </array>
+          </dict>
+        </array>
+      </dict>
+    </plist>
+  </ios>
+  <android 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <manifest 
+      xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1">
+      <application android:debuggable="true" android:icon="@drawable/appicon" android:label="titanium-streams-demo" android:largeHeap="true" android:screenOrientation="portrait" android:theme="@style/turbo_theme"></application>
+    </manifest>
+  </android>
+  <modules/>
+  <deployment-targets>
+    <target device="android">true</target>
+    <target device="ipad">true</target>
+    <target device="iphone">true</target>
+  </deployment-targets>
+  <sdk-version>8.0.1.GA</sdk-version>
+  <plugins>
+    <plugin version="1.0">ti.alloy</plugin>
+    <plugin version="1.0">turbo</plugin>
+  </plugins>
+</ti:app>

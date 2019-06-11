@@ -1,0 +1,5 @@
+<resources>
+  <style name="turbo_theme" parent="Theme.AppCompat.Light">
+    <item name="itemIconTint">@drawable/tab_icon_color_state</item>
+  </style>
+</resources>

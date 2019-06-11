@@ -1,0 +1,33 @@
+{
+	"name": "titanium-streams-demo",
+	"version": "1.0.0-0",
+	"description": "Another awesome Titanium app!",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint . --fix"
+	},
+	"dependencies": {
+		"@titanium/streams": "0.0.3",
+		"fast-json-patch": "^2.1.0"
+	},
+	"devDependencies": {
+		"lodash": "^4.17.11",
+		"@titanium/eslint-config": "0.0.4",
+		"@titanium/plugin-turbo": "^1.0.2",
+		"@titanium/turbo": "latest",
+		"eslint": "^5.16.0"
+	},
+	"keywords": [
+		"titanium",
+		"mobile",
+		"alloy",
+		"turbo"
+	],
+	"author": {
+		"name": "Brenton House",
+		"email": "brenton.house@gmail.com",
+		"url": "https://brenton.house"
+	},
+	"license": "MIT"
+}

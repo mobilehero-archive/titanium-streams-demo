@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container">
+		<Label id="label" text="Look at console for output of incoming stream" />
+	</Window>
+</Alloy>
