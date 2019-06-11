@@ -1,5 +1,44 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" text="Look at console for output of incoming stream" />
+
+		<View layout="vertical"
+			  height="size"
+			  width="80%"
+			  left="10%"
+			  top="100">
+			<Label id="label"
+				   text="Look at console for output of incoming stream"
+				   color="red" />
+
+			<View layout="horizontal"
+				  top="100"
+				  height="size">
+				<Label text="First Name: "
+					   width="size" />
+				<Label id="firstname" />
+			</View>
+			<View layout="horizontal"
+				  height="size"
+				  top="30">
+				<Label text="Last Name: "
+					   width="size" />
+				<Label id="lastname" />
+			</View>
+			<View layout="horizontal"
+				  height="size"
+				  top="30">
+				<Label text="Gender: "
+					   width="size" />
+				<Label id="gender" />
+			</View>
+			<View layout="horizontal"
+				  height="size"
+				  top="30">
+				<Label text="Region: "
+					   width="size" />
+				<Label id="region" />
+			</View>
+
+		</View>
 	</Window>
 </Alloy>

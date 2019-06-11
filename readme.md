@@ -4,6 +4,13 @@
 
 The initial version of the demo app simply captures the data/patches and outputs them to the console.   It also uses `json-fast-patch` to patch the original document with the update and output that to the console as well.
 
+** **Update** **
+
+The screen is now updated with data from one of APIs.  Check it out!
+
+--------
+
+
 
 - [📝 Description](#-description)
 - [🚀 Getting Started](#-getting-started)
