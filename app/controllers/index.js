@@ -1,6 +1,6 @@
 $.index.open();
 
-// const apikey = '<INSERT_API_KEY_HERE>';
+const apikey = '<INSERT_API_KEY_HERE>';
 
 const streams = require('@titanium/streams');
 const jsonPatch = require('fast-json-patch');
