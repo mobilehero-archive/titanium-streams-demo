@@ -12,7 +12,7 @@
 		"fast-json-patch": "^2.1.0"
 	},
 	"devDependencies": {
-		"lodash": "^4.17.11",
+		"lodash": "^4.17.13",
 		"@titanium/eslint-config": "0.0.4",
 		"@titanium/plugin-turbo": "^1.0.2",
 		"@titanium/turbo": "latest",
