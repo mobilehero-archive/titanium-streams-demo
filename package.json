@@ -13,7 +13,7 @@
 	},
 	"devDependencies": {
 		"@titanium/eslint-config": "0.0.11",
-		"@titanium/plugin-turbo": "^1.0.1",
+		"@titanium/plugin-turbo": "^1.0.4",
 		"@titanium/turbo": "^1.14.0-10",
 		"lodash": "^4.17.15",
 		"eslint": "^6.4.0"
