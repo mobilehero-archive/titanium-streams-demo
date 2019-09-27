@@ -1,6 +1,7 @@
 $.index.open();
 
-const apikey = '<INSERT_API_KEY_HERE>';
+// const apikey = '<INSERT_API_KEY_HERE>';
+const apikey = 'ZTU0YmRmZDAtNGVjYi00ZmM0LWFiNDctMGIwMGQzM2U3MTFh';
 
 const streams = require('@titanium/streams');
 const jsonPatch = require('fast-json-patch');
@@ -14,7 +15,10 @@ const headers = [];
 // const myEventSource = streams.createEventSource('https://stockmarket.streamdata.io/prices', apikey, headers);
 
 // Example using fake name generator API
-const myEventSource = streams.createEventSource('https://uinames.com/api/?region=united%20states', apikey);
+// const myEventSource = streams.createEventSource('https://uinames.com/api/?region=united%20states', apikey);
+
+
+const myEventSource = streams.createEventSource('https://api.twitter.com/1.1/search/tweets.json?q=trump&result_type=recent&count=100', apikey);
 
 let document = {};
 
@@ -24,7 +28,7 @@ myEventSource
 		console.error('you are here → onData');
 		console.info(`data: ${JSON.stringify(data, null, 2)}`);
 		document = data;
-		updateView();
+		// updateView();
 	})
 	.onPatch(patch => {
 		// update the data with the provided patch

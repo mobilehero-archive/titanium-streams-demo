@@ -12,11 +12,11 @@
 		"fast-json-patch": "^2.1.0"
 	},
 	"devDependencies": {
-		"lodash": "^4.17.11",
 		"@titanium/eslint-config": "0.0.4",
 		"@titanium/plugin-turbo": "^1.0.2",
-		"@titanium/turbo": "latest",
-		"eslint": "^5.16.0"
+		"@titanium/turbo": "^1.14.0-10",
+		"eslint": "^5.16.0",
+		"lodash": "^4.17.14"
 	},
 	"keywords": [
 		"titanium",
