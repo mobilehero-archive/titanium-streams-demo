@@ -16,7 +16,7 @@
 		"@titanium/plugin-turbo": "^1.0.4",
 		"@titanium/turbo": "^1.14.0-10",
 		"lodash": "^4.17.15",
-		"eslint": "^6.4.0"
+		"eslint": "^6.5.0"
 	},
 	"keywords": [
 		"titanium",
