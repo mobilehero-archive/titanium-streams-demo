@@ -3,7 +3,7 @@
 		xmlns:ti="http://ti.appcelerator.org">
 	<id>axway.titaniumstreamsdemo</id>
 	<name>titanium-streams-demo</name>
-	<version>1.0.0.0</version>
+	<version>1.0.0.1</version>
 	<publisher>Axway</publisher>
 	<url>https://www.axway.com</url>
 	<description>Titanium Demo app for AMPLIFY Streams</description>
@@ -85,7 +85,7 @@
 	<android
 			 xmlns:android="http://schemas.android.com/apk/res/android">
 		<manifest
-				  xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1">
+				  xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="100000001">
 			<application android:debuggable="true" android:icon="@drawable/appicon" android:label="titanium-streams-demo" android:largeHeap="true" android:screenOrientation="portrait" android:theme="@style/turbo_theme" />
 		</manifest>
 	</android>
